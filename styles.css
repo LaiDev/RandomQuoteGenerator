@@ -1,0 +1,48 @@
+
+.wrapper
+{
+    width: 70vw;
+    height: 80vh;
+    margin: 100px auto;
+    padding: 0 20px;
+    border: 2px black solid;
+    border-radius: 5px;
+   
+    position: relative;
+    box-shadow: -8px 10px 5px rgb(0, 0, 0);
+}
+
+div
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 80%;
+    gap: 50px;
+}
+
+
+img
+{
+    height: 50px;
+}
+
+img:hover
+{
+    filter: invert(84%) sepia(86%) saturate(6875%) hue-rotate(360deg) brightness(86%) contrast(101%);
+}
+
+
+button
+{
+    border: none;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 50px;
+    font-size: 18px;
+    position: absolute;
+    bottom: 0;
+    justify-self: flex-end;
+}
+
